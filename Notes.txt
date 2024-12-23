@@ -1,0 +1,3 @@
+kubectl create configmap my-config --from-literal=IMAGE_NAME=asaleh37/react-app
+
+kubectl edit configmap my-config --from-literal=IMAGE_NAME=asaleh37/react-app:2.0
